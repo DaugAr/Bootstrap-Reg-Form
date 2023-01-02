@@ -8,11 +8,56 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
-    <title>Form</title>
+    <title>Signup-Form</title>
 </head>
 
 <body>
-
+    <div class="row main">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <div id="main">
+                <div class="row">
+                    <h2>Sign Up</h2>
+                    <h6>Please fill in this form to create an account!</h6>
+                    <hr>
+                </div>
+                <div class="row box">
+                    <div class="form-floating mb-3 inline">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label id="labelmargin" for="floatingInput">First Name</label>
+                    </div>
+                    <div class="form-floating mb-3 inline">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label id="labelmargin" for="floatingInput">Last Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label id="labelmargin" for="floatingInput">Email</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label id="labelmargin" for="floatingInput">Password</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label id="labelmargin" for="floatingPassword">Confirm Password</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <div class="form-floating">
+                        <button type="button" id="btn" class="btn btn-lg btn-primary" disabled>Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+    </div>
+    <p>Already have an account? <a id="logIn" href="">Login here</a></p>
 </body>
 
 </html>
